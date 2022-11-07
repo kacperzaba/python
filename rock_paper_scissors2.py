@@ -13,7 +13,9 @@ while True:
     
 
     user_pick = input("Choose rock, paper, scissors or Q to quit: ").lower()
-    
+    with open("file2.txt", "a") as f:
+        f.write("You pick " + user_pick + "\n")
+
     if user_pick == "q":
         break
 
@@ -25,26 +27,32 @@ while True:
     #rock-0, paper-1, scissors-2
     computer_pick = options[random_number]
     print(f"Computer pick {computer_pick}.")
+    with open("file2.txt", "a") as f:
+        f.write("Computer pick " + str(computer_pick) + "\n")
 
     if user_pick == "paper" and computer_pick == "rock":
         print("You won!")
         user_wins += 1
         with open("file2.txt", "a") as f:
             f.write("You won!\n")
+
     elif user_pick == "rock" and computer_pick == "scissors":
         print("You won")
         user_wins += 1
         with open("file2.txt", "a") as f:
             f.write("You won!\n")
+
     elif user_pick == "scissors" and computer_pick == "paper":
         print("You won!")
         user_wins += 1
         with open("file2.txt", "a") as f:
             f.write("You won!\n")
+
     elif user_pick == computer_pick:
         print("Draw!")
         with open("file2.txt", "a") as f:
-            f.write("Draw!\n")
+            f.write("Draw\n")
+
     else:
         print("Computer won!")
         computer_wins += 1

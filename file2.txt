@@ -1,8 +1,27 @@
+You pick paper
+Computer pick paper
+Draw
+You pick rock
+Computer pick rock
+Draw
+You pick scissors
+Computer pick rock
+Computer won!
+You pick paper
+Computer pick rock
 You won!
-Computer won!
+You pick rock
+Computer pick scissors
 You won!
-Draw!
+You pick paper
+Computer pick paper
+Draw
+You pick scissors
+Computer pick paper
+You won!
+You pick rock
+Computer pick paper
 Computer won!
-Computer won!
-You won 2 times.
-Computer won 3 times.
+You pick q
+You won 3 times.
+Computer won 2 times.

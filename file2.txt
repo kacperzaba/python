@@ -1,0 +1,8 @@
+You won!
+Computer won!
+You won!
+Draw!
+Computer won!
+Computer won!
+You won 2 times.
+Computer won 3 times.
